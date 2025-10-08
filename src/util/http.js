@@ -1,8 +1,7 @@
 import axios from 'axios'
-const ENV = import.meta.env
 
 const http = axios.create({
-     baseURL:'http://localhost:8080',
+     baseURL:'https://ecom-backend-kg4c.vercel.app',
      withCredentials: true,
 })
 
